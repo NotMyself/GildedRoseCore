@@ -27,7 +27,7 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 
 ## Getting Started
 
-1. Install [.NET Core SDK 1.0]()https://www.microsoft.com/net/core. **Note:** For windows users ensure you download the [SDK](https://go.microsoft.com/fwlink/?LinkID=809122), it is not the first link on the page.
+1. Install [.NET Core SDK 1.0]()https://www.microsoft.com/net/core. 
 2. Install [Visual Studio Code](https://code.visualstudio.com/), the [Insiders Edition](https://code.visualstudio.com/insiders) is highly recommended.
 3. Clone the repository: `git clone https://github.com/NotMyself/GildedRoseCore.git`.
 4. Restore packages: `./script/restore`.
@@ -38,11 +38,13 @@ If you see output similar to the following screenshot, you are ready to start re
 
 ### Bash
 
-![bash good restore, run, test output](images/bash_restore_run_test.png)
+![bash good restore, run, test output](/images/bash_restore_run_test.png?raw=true "bash good restore, run, test output")
 
 ### PowerShell
 
-![powershell good restore, run, test output](images/powershell_restore_run_test.png)
+![powershell good restore, run, test output](/images/powershell_restore_run_test.png?raw=true "powershell good restore, run, test output")
+
+**Note:** For windows users ensure you download the [SDK](https://go.microsoft.com/fwlink/?LinkID=809122), it is not the first link on the page.
 
 ## Who, What, Why?
 
