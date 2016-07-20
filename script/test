@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for dir in `find ./src -type d -name '*Tests' -depth 1`;
+do
+    [ -f "$dir/package.json" ] || dotnet test $dir
+done
