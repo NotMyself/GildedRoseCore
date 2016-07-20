@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Console Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/src/GildedRoseCore.Console/bin/Debug/netcoreapp1.0/GildedRoseCore.Console.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}/src/GildedRoseCore.Console",
+            "stopAtEntry": false,
+            "externalConsole": false
+        }
+    ]
+}
