@@ -27,14 +27,15 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 
 ## Getting Started
 
-1. Install [.NET Core SDK 1.0]()https://www.microsoft.com/net/core. 
+1. Install [.NET Core SDK 1.0](https://www.microsoft.com/net/core). 
 2. Install [Visual Studio Code](https://code.visualstudio.com/), the [Insiders Edition](https://code.visualstudio.com/insiders) is highly recommended.
 3. Clone the repository: `git clone https://github.com/NotMyself/GildedRoseCore.git`.
 4. Restore packages: `./script/restore`.
 5. Run Console Application: `./script/run`.
 6. Run Unit Tests: `./script/test`.
 
-If you see output similar to the following screenshot, you are ready to start refactoring.
+If you see output similar to the following screenshot, you are ready to start refactoring. **Note:** For windows users ensure you download the [SDK](https://go.microsoft.com/fwlink/?LinkID=809122), it is not the first link on the page.
+
 
 ### Bash
 
@@ -44,7 +45,15 @@ If you see output similar to the following screenshot, you are ready to start re
 
 ![powershell good restore, run, test output](/images/powershell_restore_run_test.png?raw=true "powershell good restore, run, test output")
 
-**Note:** For windows users ensure you download the [SDK](https://go.microsoft.com/fwlink/?LinkID=809122), it is not the first link on the page.
+## Debugging in VSCode
+
+The workspace comes preconfigured to debug the console application in VSCode. Simply, click the debug icon and then the play icon.
+
+![vscode debug console](/images/vscode_debug_console.png?raw=true "vscode debug console")
+
+To debug a unit test, locate the `debug test` link in the codelens display.
+
+![vscode debug test](/images/vscode_debug_test.png?raw=true "vscode debug test")
 
 ## Who, What, Why?
 
