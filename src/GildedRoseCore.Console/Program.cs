@@ -40,8 +40,7 @@ namespace ConsoleApplication
 
             app.UpdateQuality();
 
-            System.Console.ReadKey();
-
+            Console.ReadKey();
         }
 
         public void UpdateQuality()
